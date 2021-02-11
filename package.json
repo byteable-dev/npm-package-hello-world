@@ -1,0 +1,31 @@
+{
+  "name": "byteable-hello-world",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "release": "npm version patch && npm run build && npm publish",
+    "test": "jest --testTimeout=10000 --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-image": "^2.0.6",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.0",
+    "jest": "^26.6.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "rollup": "^2.38.5",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-jest": "^26.5.1",
+    "typescript": "^4.1.5"
+  },
+  "files": [
+    "dist"
+  ]
+}

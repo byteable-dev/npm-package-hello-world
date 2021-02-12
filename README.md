@@ -1,4 +1,4 @@
-### Welcome to my byteable-hello-world
+### Welcome to byteable-hello-world
 
 > This repository is the code for the article [Build your own reusable npm react package with Rollup](https://www.byteable.dev/posts/build-your-own-reusable-npm-react-package-with-rollup/).
 
